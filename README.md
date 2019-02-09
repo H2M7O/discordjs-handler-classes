@@ -9,6 +9,6 @@ Cloner le code puis :
 
 ## Prérequis
 
-Node: 8.12+
-Discord.js: 11+
-Outils Windows : `npm i -g --add-python-to-path --vs2015 --production windows-build-tools`
+- Node: 8.12+
+- Discord.js: 11+
+- Outils Windows : `npm i -g --add-python-to-path --vs2015 --production windows-build-tools`

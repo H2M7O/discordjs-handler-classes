@@ -115,3 +115,9 @@ const init = async () => {
 };
 
 init();
+
+client
+  .on("disconnect", () => client.logger.warn("Le bot se déconnecte..."))
+  .on("reconnecting", () => client.logger.log("Le bot se reconnecte...", "log"))
+  .on("error", e => client.logger.error(e))
+  .on("warn", info => client.logger.warn(info));
